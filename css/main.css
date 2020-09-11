@@ -33,7 +33,7 @@ a.nav-button {
   width:100%
 }
 .container-lrg {
-  max-width:1020px
+  max-width:1080px
 }
 .container {
   max-width:780px
@@ -75,7 +75,6 @@ a.nav-button {
   border-radius: 100%;
   width: 100%;
   height: auto;
-  margin-right: 15px;
 }
 
 .testimonial__details {
