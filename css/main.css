@@ -21,9 +21,34 @@ a.nav-button {
   background-color: #353740;
 }
 
+/* Logo */
+a.logo {
+  text-decoration: none;
+}
+  
+/* Button links in navigation bar */
+a.nav-button {
+  text-decoration: none;
+}
+
 /* Make sure headers are bold (unlike in Bootstrap, where font-weight:500 */
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
   font-weight:700;
+}
+
+/* For short bold texts on the page */
+.bold-inline {
+  font-weight:700;
+}
+
+/* Underline some text */
+.underline {
+  text-decoration: underline;
+}
+
+.clean-link {
+  color:inherit;
+  text-decoration:none;
 }
 
 /* Container sizes */
@@ -42,7 +67,7 @@ a.nav-button {
   max-width:470px
 }
 .section {
-  padding:60px 0;
+  padding:30px 0;
   overflow:hidden;
   position:relative
 }
