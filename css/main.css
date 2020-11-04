@@ -51,6 +51,11 @@ a.nav-button {
   text-decoration:none;
 }
 
+/* Display properly some English text */
+p.ltr {
+  direction: ltr;
+}
+
 /* Container sizes */
 .container,.container-lrg,.container-sml {
   margin:auto;
