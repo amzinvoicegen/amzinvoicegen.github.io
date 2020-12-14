@@ -212,6 +212,8 @@ hr {
 
 .pricing-plan .card-header {
   text-align: center;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 .pricing-plan .card-title {
