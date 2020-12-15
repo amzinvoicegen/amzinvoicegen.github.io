@@ -220,6 +220,11 @@ hr {
   text-align: center;
 }
 
+.card-title-mini {
+    text-align: center;
+    color: #d5d5d5!important;
+}
+
 .pricing-plan .plan-contents i.fa.fa-check {
   color: #3ad2ad;
   /* float: left; */
@@ -239,4 +244,34 @@ hr {
 
 .pricing-plan button a {
   text-decoration: none;
+}
+
+.bg-green {
+    background: #3ad2ad;
+}
+
+.pricing-plan.selected .card-header h4,
+.pricing-plan.selected .card-header span,
+.pricing-plan.selected .card-header {
+    color:#fff;
+}
+
+@media screen and (max-width:480px) {
+    .card-header small,
+    .pricing-plan.selected .card-header small {
+        min-height:initial!important;
+    }
+
+    .list-features i {
+        float:left;
+        line-height:1.4;
+    }
+}
+
+.pricing-plan_label span {
+    display: block;
+    letter-spacing: 2px;
+    padding: 16px 15px;
+    color: #ffffff;
+    text-align: center;
 }
