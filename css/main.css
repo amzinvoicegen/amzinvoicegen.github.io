@@ -11,6 +11,15 @@ a.logo {
   text-decoration: none;
 }
 
+/* Green buttons */
+.green-btn {
+    background-color:#3ad2ad;
+}
+
+.dark-green-btn {
+    background-color: #35bac1;
+}
+
 /* Button links in navigation bar */
 a.nav-button {
   text-decoration: none;
